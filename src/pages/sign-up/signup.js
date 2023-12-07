@@ -5,6 +5,7 @@ import LogoSvg from '../description/LogoSvg.jsx'
 export default function SignUpPage() {
 
     return (
+        <>
         <S.Login>
             <S.LoginBox>
                 <LogoSvg/>
@@ -16,7 +17,7 @@ export default function SignUpPage() {
                 <S.RegBtn type='button'>Зарегистрироваться</S.RegBtn>
             </S.LoginBox>
         </S.Login>
-
+        </>
     )
 
 }

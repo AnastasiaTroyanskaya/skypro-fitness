@@ -1,8 +1,10 @@
 import * as S from "./loginStyles.jsx"
 import "./loginStyles.jsx"
 import LogoSvg from '../description/LogoSvg.jsx'
+
 export default function SignInPage() {
     return (
+        <>
         <S.Login>
             <S.LoginBox>
             <LogoSvg/>
@@ -14,7 +16,7 @@ export default function SignInPage() {
             <S.RegBtn type='button'>Зарегистрироваться</S.RegBtn>
             </S.LoginBox>
         </S.Login>
-
+        </>
     )
 
 }

@@ -10,6 +10,7 @@ export const ChangePass = ({ setIsEditPass }) => {
   // };
 
   return (
+    <>
     <S.Wrapper>
       <S.ModalBlock>
         {/* <S.Closer src="/img/close.png" alt="закрыть" onClick={handleClose} /> */}
@@ -33,5 +34,6 @@ export const ChangePass = ({ setIsEditPass }) => {
         </S.ModalFormLogin>
       </S.ModalBlock>
     </S.Wrapper>
+    </>
   );
 };

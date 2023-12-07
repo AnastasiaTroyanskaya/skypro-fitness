@@ -1,25 +1,8 @@
-import styled, { createGlobalStyle } from "styled-components";
-
-export const GlobalStyle = createGlobalStyle`
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-  }
-  @font-face {
-    font-family: "StratosSkyeng", sans-serif;
-    src: local("StratosSkyeng"), local("StratosSkyeng"),
-      url("../../../public/fonts/StratosSkyeng.woff2") format("woff2"),
-      url("../../../public/fonts/StratosSkyeng.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  } 
-`;
+import styled from "styled-components";
 
 export const Container = styled.div`
-  padding-left: calc(50% - 580px);
-  padding-right: calc(50% - 580px);
+  font-family: "StratosSkyeng", sans-serif;
+
   background-color: rgba(250, 250, 250, 1);
 `;
 
@@ -76,7 +59,7 @@ export const Exercises = styled.div`
 export const ContentExercises = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
 `;
 
 export const TitleExercises = styled.h2`

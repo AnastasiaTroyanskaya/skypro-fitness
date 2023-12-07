@@ -20,6 +20,7 @@ const WorkoutPage = () => {
   };
 
   return (
+    <>
     <S.Container>
       <S.Header />
       <S.Main>
@@ -95,6 +96,7 @@ const WorkoutPage = () => {
         <SuccessModal setIsSuccessModalShow={setIsSuccessModalShow} />
       )}
     </S.Container>
+    </>
   );
 };
 

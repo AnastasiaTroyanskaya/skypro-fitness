@@ -8,7 +8,8 @@ export const ChangeEmail = ({ setIsEditEmail }) => {
   //   setIsEditEmail(false);
   // };
 
-  return (
+  return (   
+    <>
     <S.Wrapper>
       <S.ModalBlock>
         {/* <S.Closer src="/img/close.png" alt="закрыть" onClick={handleClose} /> */}
@@ -28,5 +29,6 @@ export const ChangeEmail = ({ setIsEditEmail }) => {
         </S.ModalFormLogin>
       </S.ModalBlock>
     </S.Wrapper>
+    </>
   );
 };

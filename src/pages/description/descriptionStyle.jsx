@@ -1,32 +1,7 @@
-import styled, { createGlobalStyle } from "styled-components";
-
-export const GlobalStyle = createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  @font-face {
-    font-family: "StratosSkyeng", sans-serif;
-    src: local("StratosSkyeng"), local("StratosSkyeng"),
-      url("../../../../public/fonts/StratosSkyeng.woff2") format("woff2"),
-      url("../../../../public/fonts/StratosSkyeng.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-  } 
-`;
+import styled from "styled-components";
   
 export const Container = styled.div`
-  padding-left: calc(50% - 580px);
-  padding-right: calc(50% - 580px);
-`;
-  
-export const HeaderNav = styled.nav`
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
+  font-family: "StratosSkyeng", sans-serif;
 `;
   
 export const Course = styled.main`
@@ -49,7 +24,6 @@ export const CourseYoga = styled.h1`
   font-size: 64px;
   font-weight: 400;
   line-height: 72px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const CourseImgBox = styled.div`
@@ -76,7 +50,6 @@ export const TenderTitle = styled.h2`
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const Offers = styled.div`
@@ -110,7 +83,6 @@ export const P = styled.p`
   font-weight: 400;
   line-height: 32px;
   margin-top: 0;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const OffersText = styled.div`
@@ -122,7 +94,6 @@ export const PNum = styled.p`
   font-size: 32px;
   font-weight: 400;
   line-height: 40px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const DirectionsTitle = styled.h2`
@@ -130,7 +101,6 @@ export const DirectionsTitle = styled.h2`
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const DirectionsLine = styled.div`
@@ -143,7 +113,6 @@ export const DirectionsText = styled.ul`
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const Li = styled.li`
@@ -158,7 +127,6 @@ export const DescribeText = styled.p`
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const RegisterBox = styled.div`
@@ -171,6 +139,7 @@ export const RegisterBox = styled.div`
 
 export const Application = styled.div`
   padding-left: 52px;
+  padding-top: 40px;
 `;
 
 export const ApplicationText = styled.h3`
@@ -179,7 +148,6 @@ export const ApplicationText = styled.h3`
   font-size: 32px;
   font-weight: 400;
   line-height: 40px;
-  font-family: "StratosSkyeng", sans-serif;
 `;
 
 export const ApplicationBtn = styled.button`
@@ -192,7 +160,6 @@ export const ApplicationBtn = styled.button`
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  font-family: "StratosSkyeng", sans-serif;
   :hover{
     background: #DAF289;
   }

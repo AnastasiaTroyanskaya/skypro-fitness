@@ -1,11 +1,11 @@
 import * as S from "./descriptionStyle.jsx"
-import LogoSvg from "./LogoSvg.jsx" 
+// import LogoSvg from "./LogoSvg.jsx" 
+import Header from "../../components/Header/Header.js"
 export default function CourseInfo() {
-  return (  
+  return ( 
+    <>
     <S.Container>
-      <S.HeaderNav>
-        <LogoSvg />
-      </S.HeaderNav>
+      <Header />
       <S.Course>
         <S.CourseBox>
           <S.CourseYoga>Йога</S.CourseYoga>
@@ -357,5 +357,6 @@ export default function CourseInfo() {
             />
         </svg>
       </S.RegisterBox>
-    </S.Container>)
+    </S.Container>
+    </> )
 }

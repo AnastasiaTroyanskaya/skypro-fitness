@@ -1,17 +1,11 @@
 import styled from "styled-components";
 
 export const Wrap = styled.div`
-  font-family: "StratosSkyeng";
+  font-family: "StratosSkyeng", sans-serif;
   font-style: normal;
   position: relative;
   width: 100%;
   background: #fafafa;
-  padding-left: calc(50% - 800px);
-  padding-right: calc(50% - 800px);
-`;
-export const Content = styled.div`
-  margin-left: 140px;
-  margin-right: 140px;
 `;
 
 export const Title = styled.div`
@@ -29,7 +23,6 @@ export const TitleText = styled.span`
 `;
 
 export const TitleTextLogin = styled.span`
-  font-family: "StratosSkyeng";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -39,7 +32,6 @@ export const TitleTextLogin = styled.span`
   padding-top: 40px;
 `;
 export const TitleTextPass = styled.span`
-  font-family: "StratosSkyeng";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -62,7 +54,6 @@ export const ChangeButton = styled.button`
   top: 360px;
   background: #580ea2;
   border-radius: 46px;
-  font-family: "StratosSkyeng";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -85,7 +76,6 @@ export const CourseWrap = styled.div`
   align-items: flex-start;
 `;
 export const TitleCourse = styled.div`
-  font-family: "StratosSkyeng";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -121,7 +111,6 @@ export const ProfButton = styled.button`
   top: 410px;
   background: #c7e957;
   border-radius: 80px;
-  font-family: "StratosSkyeng";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

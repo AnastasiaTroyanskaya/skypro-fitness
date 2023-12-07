@@ -3,6 +3,8 @@ import { useState } from "react";
 import SelectWorkout from "../../components/SelectWorkout/SelectWorkout";
 import { ChangeEmail } from "../../components/ChangeEmail/ChangeEmail";
 import { ChangePass } from "../../components/ChangePass/ChangePass";
+import Header from "../../components/Header/Header.js"
+
 
 const courses = [
   { id: "1", title: "Йога", img: "/img/profCard1.png" },
@@ -16,8 +18,9 @@ export const PersonalPage = () => {
   const [isShowForm, setIsShowForm] = useState(false);
 
   return (
+    <>
     <S.Wrap>
-      <S.Content>
+      <Header />
         <S.Title>
           <S.TitleText>Мой профиль</S.TitleText>
           <S.TitleTextLogin>
@@ -55,7 +58,7 @@ export const PersonalPage = () => {
         {isShowForm ? (
           <SelectWorkout setIsShowForm={setIsShowForm}></SelectWorkout>
         ) : null}
-      </S.Content>
     </S.Wrap>
+    </>
   );
 };
